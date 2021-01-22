@@ -15,7 +15,7 @@ public class LoginController1 {
 	@RequestMapping(value="/hi")
 	public ModelAndView displayMessage()
 	{
-		System.out.println("display message called..");
+		System.out.println("display called..");
 		ModelAndView mav=new ModelAndView("Hello");
 		mav.addObject("msg","Hello gud mrngGGG");
 		return mav;
